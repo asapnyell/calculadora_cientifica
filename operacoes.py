@@ -1,4 +1,4 @@
-import match
+import math
 
 def soma(a, b):
     return a + b
@@ -15,18 +15,18 @@ def divide(a, b):
     else:
         return "Divisão por zero não é permitida."
 def seno(a):
-    return match.sin(match.radians(a))
+    return math.sin(math.radians(a))
 
 def cosseno(a):
-    return match.cos(match.radians(a))
+    return math.cos(math.radians(a))
 
 def tangente(a):
-    return match.tan(match.radians(a))
+    return math.tan(math.radians(a))
 
 def raiz_quadrada(a):
     if a >= 0:
-        return match.sqrt(a)
+        return math.sqrt(a)
     else:
         return "Raiz quadrada de número negativo não é permitida."
 def potencia(base, expoente):
-    return match.pow(base, expoente)
+    return math.pow(base, expoente)
